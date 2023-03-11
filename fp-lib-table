@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MB9X-UART)(type KiCad)(uri ${KIPRJMOD}/MB9X-UART.pretty)(options "")(descr ""))
+)
