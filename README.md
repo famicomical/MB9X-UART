@@ -13,6 +13,6 @@ The person assembling this board will need to procure their own USB to RS232-C c
  - Invoke the ISP-MB9X program from the command-line. 
    - For example: ```isp-mb9x.exe /1 /o4 /MB90F553A /b ROM.mhx /r```
 uses serial port COM1 to dump the ROM from a Fujitsu MB90F553A running at 4MHz into a file called ROM.mhx
-      - Caution: running the program without a command will erase the ROM from your MCU by default, so be careful!!
+      - Caution: running the program without the /r command will erase the ROM from your MCU by default, so be careful!!
  - Power off your equipment and unplug the board
 
