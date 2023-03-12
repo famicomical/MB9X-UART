@@ -29,4 +29,4 @@ The UART-MB9X device will then be usable on the SIGNAL PWB.
 
 ![plugged](plugged.jpg)
 
-see the main readme for the command needed to dump the ROM 
+see the main readme for the command needed to dump the ROM. All the DIP switches should be set to ON.
