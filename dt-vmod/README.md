@@ -15,7 +15,7 @@ The UART-MB9X device will then be usable on the SIGNAL PWB.
 ![cut](cut.jpg)
  - solder a small wire from the pad above R860 to the circled hole in the PCB.
   - it may be necessary to remove resistor R859 for the MB9X-UART to deliver the reset pulse. you may reinstall it when done.
-![patch](patch.jpg) ![R859](reset.jpg)
+![patch](patch.jpg) ![R859](resetsmall.jpg)
  - now take your assembled MB9X-UART board, and using a razor blade or file remove about 0.5mm of material from each side of the 12-pin header
  - do this slowly and carefully until the MB9X-UART fits into connector J without too much force. a little force is OK.
  - Your signal board is now ready to be read/programmed. 
