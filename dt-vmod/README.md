@@ -5,7 +5,7 @@ The UART-MB9X device will then be usable on the SIGNAL PWB.
 
  - First, remove the 10 screws holding down the monitor cover
  - grabbing by the handles, wiggle the cover towards the back of the monitor slightly until you can see the metal lip that goes under the front bezel
- - Pull outwards from the handles to decouple the cover and lift it straight up from the monitor. place it where it won't be an obstacle
+ - Pull outwards from the handles to decouple the cover from the monitor and lift it straight up and away. place it where it won't be an obstacle
  - unplug the three cables from the signal PWB that go to the front button panel
  - remove the tally light cable and unplug the signal PWB from the I/O tower
  - gently remove the cables going to the CRT neck board and to the 
