@@ -25,7 +25,7 @@ The UART-MB9X device will then be usable on the SIGNAL PWB.
  - do this slowly and carefully until the MB9X-UART fits into connector J without too much force. a little force is OK.
  - Your signal board is now ready to be read/programmed. 
   - You can do this from the monitor service menu (untested) or using an external 5V supply plugged into the 3-pin connector C (preferred)
-   - pin 2 is +5V and pin 3 is GND
+    - pin 2 is +5V and pin 3 is GND
 
 ![plugged](plugged.jpg)
 
