@@ -12,9 +12,10 @@ The person assembling this board will need to procure their own USB to RS232-C c
     - extension of the USB cord is preferable to extending the RS232-C connection. in other words, connect the MB9X-UART directly to your adapter.
  - Connect the MB9X-UART to your target board, and turn on the power
  - Invoke the ISP-MB9X program from the command-line. 
-   - For example: ```isp-mb9x.exe /1 /o4 /MB90F553A /b ROM.mhx /r```
-uses serial port COM1 to dump the ROM from a Fujitsu MB90F553A running at 4MHz into a file called ROM.mhx
+   - For example: ```isp-mb9x.exe /1 /o4 /MB90F553A /b ROM /r```
+uses serial port COM1 to dump the ROM from a Fujitsu MB90F553A running at 4MHz into a file called ROM. 
       - Caution: running the program without the /r command will erase the ROM from your MCU by default, so be careful!!
+         - you must add the .mhx file extension manually as the isp-mb9x program will crash if you supply a file extension in the command line.
  - Wait for the read to complete being careful not to disturb the cables.
  - Power off your equipment and unplug the board
 
